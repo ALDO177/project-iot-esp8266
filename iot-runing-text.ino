@@ -42,7 +42,7 @@ String tanggal;
 char rows[60];
 char nameoftheday[7][12] = {"Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum`at", "Sabtu"};
 char month_name[12][12]  = {"Januai", "Febuari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"};
-String host = "https://data-absensi.motor-smart.com/api/get-slide";
+String host = ""; // your Host support https
 RTC_DS1307 rtc;
 AsyncWebServer server(80);
 char hr_24 [3];
