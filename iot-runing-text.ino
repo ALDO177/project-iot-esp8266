@@ -433,3 +433,5 @@ void menitToSecond(){
     data_times_all = mH;
   }
 }
+
+puntenn Atuh
